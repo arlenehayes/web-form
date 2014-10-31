@@ -13,7 +13,7 @@ body{
     background-color: rgb(75,121,158);
 	color: rgb(205,218,228);
 	text-align: center;
-	box-shadow: 10px 20px 30px black;
+	box-shadow: 1em 1em 1em black;
 	}
 #logo{
     font-family: billabong, cursive;
