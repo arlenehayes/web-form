@@ -40,10 +40,14 @@ body{
 	float: right;
 	}
 
-@media screen and (min-width 48em) {
-	#new-users{
-		float: none;
+@media screen and (min-width 64em) {
+	#existing-users{
+		float: center;
 		}
+	#new-users{
+		float: clear;
+		}
+	
 	}
 	
 	
