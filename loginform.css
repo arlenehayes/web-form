@@ -11,7 +11,7 @@ body{
     text-size-adjust: 100%; 
 	}
 	
-form{
+#page-content{
 	margin: 0 auto;
 	width: 60%;
 	}
@@ -38,6 +38,7 @@ input, textarea {
 button {
 	padding-left: 9em;
 	margin-left: .8em;
+	border-radius: .8em;
 	}
 	
 	
@@ -72,14 +73,24 @@ button {
 	padding-right: 5%;
 	float: center;
 	}
-/*
-@media screen and (min-width 64em) {
-	#existing-users{
-		float: center;
-		}
-	#new-users{
-		float: clear;
+
+@media screen and (min-width 32em) {
+	#page-content{
+	    width: 75%;
 		}
 	}
-	*/
+	
+@media screen and (min-width 48em) {
+	#page-content{
+		width: 70%;
+		}
+	}
+
+@media screen and (min-width 64em) {
+	#page-content{
+		width: 65%;
+		}
+	}
+	
+	
 	
