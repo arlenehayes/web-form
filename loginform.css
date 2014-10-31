@@ -16,6 +16,10 @@ body{
 	margin: 0 auto;
 	width: 60%;
 	}
+
+form{
+	padding-top: 0.9em
+	}
 	
 form div + div{
 	margin-top: 1em;
@@ -70,6 +74,10 @@ button {
 	
 #form-intro{
 	padding-top: 1.8em;
+	}
+	
+#form-intro2{
+	padding-top: 3.6em;
 	}
 	
 #new-users{
