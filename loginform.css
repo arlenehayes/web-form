@@ -10,6 +10,22 @@ body{
     -ms-text-size-adjust: 100%;
     text-size-adjust: 100%; 
 	}
+	
+form{
+	margin: 0 auto;
+	width: 400px;
+	}
+	
+form div + div{
+	margin-top: 1em;
+	}
+	
+label {
+	display: inline-block;
+	width: 9em;
+	text-align: right;
+	}
+		
 #name{
     background-color: rgb(75,121,158);
 	color: rgb(205,218,228);
@@ -28,18 +44,18 @@ body{
 	font-size: 1.6em;
     padding-top: 3em;
 	padding-left: 5%;
-	padding-right: 10%;
-	float: left;
+	padding-right: 5%;
+	float: center;
 	}
 #welcome{
-	font-size: 1.8em;
+	font-size: 1.6em;
 	}
 #new-users{
 	font-size: 1.6em;
 	padding-top: 3em;
-	padding-left: 10%;
+	padding-left: 5%;
 	padding-right: 5%;
-	float: left;
+	float: center;
 	}
 /*
 @media screen and (min-width 64em) {
