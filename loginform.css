@@ -68,10 +68,14 @@ button {
 	padding-left: 5%;
 	padding-right: 5%;
 	}
-#welcome{
+#greeting1{
 	font-size: 1.6em;
 	}
 	
+#greeting2{
+	font-size: 1.6em;
+	}
+		
 #form-intro{
 	padding-top: 1.8em;
 	}
