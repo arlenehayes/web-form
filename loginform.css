@@ -25,7 +25,21 @@ label {
 	width: 9em;
 	text-align: right;
 	}
-		
+
+input, textarea {
+	font: 1.2em sans-serif;
+	width: 30em;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 0.1em solid rgb(204,204,204);
+	}
+
+button {
+	padding-left: 9em;
+	margin-left: .8em;
+	}
+	
+	
 #name{
     background-color: rgb(75,121,158);
 	color: rgb(205,218,228);
@@ -65,8 +79,6 @@ label {
 	#new-users{
 		float: clear;
 		}
-	
 	}
 	*/
-	
 	
