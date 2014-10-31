@@ -36,8 +36,8 @@ input, textarea {
 	}
 
 button {
-	padding-left: 9em;
-	margin-left: .8em;
+	/*padding-left: 9em;*/
+	margin-left: 9em;
 	border-radius: .8em;
 	}
 	
