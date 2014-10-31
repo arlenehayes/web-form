@@ -11,31 +11,35 @@
 	</head>
 	
 	<body>
-	    <div id="name">
-		<!--Jpeg or Gif image of Instagram logo and special font-->
-		    <p id="logo">Instagram</p>
+	    <div id="header">
+		    <div id="name">
+			<!--Jpeg or Gif image of Instagram logo and special font-->
+				<p id="logo">Instagram</p>
+			</div>
 		</div>
-		<div id="greeting1">
-		    <p>Welcome Back!</p> 
-		</div>
-		<div id="greeting2">
-		    <p>Ready to share some photos?</p>
-		</div>
-		<div id="existing-users">
-		    <p>Log in here:</p>
-			<form action="/insta-member-database" method="post">
-                <div>
-			        <label for="username">Username:</label>
-					<input type="text" id="username" />
-				</div>
-				<div>
-				    <label for="password">Password:</label>
-					<input type="text" id="password" />
-				</div>
-				<div class="button">
-			        <button type="submit">Start sharing</button>
-			    </div>
-			</form>
+		<div id="welcome">
+			<div id="greeting1">
+				<p>Welcome Back!</p> 
+			</div>
+			<div id="greeting2">
+				<p>Ready to share some photos?</p>
+			</div>
+			<div id="existing-users">
+				<p>Log in here:</p>
+				<form action="/insta-member-database" method="post">
+					<div>
+						<label for="username">Username:</label>
+						<input type="text" id="username" />
+					</div>
+					<div>
+						<label for="password">Password:</label>
+						<input type="text" id="password" />
+					</div>
+					<div class="button">
+						<button type="submit">Start sharing</button>
+					</div>
+				</form>
+			</div>
 		</div>
 		<div id="new-users">
 		    <p>Are&nbsp;you new&nbsp;here?</p>
