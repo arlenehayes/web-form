@@ -28,6 +28,7 @@ body{
 	font-size: 1.6em;
     padding-top: 3em;
 	padding-left: 5%;
+	padding-right: 10%;
 	float: left;
 	}
 #welcome{
@@ -36,6 +37,7 @@ body{
 #new-users{
 	font-size: 1.6em;
 	padding-top: 3em;
+	padding-left: 10%;
 	padding-right: 5%;
 	float: left;
 	}
