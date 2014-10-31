@@ -39,7 +39,7 @@ button {
 	/*padding-left: 9em;*/
 	margin-left: 12em;
 	border-radius: .8em;
-	font-style: bold;
+	font-weight: bold;
 	}
 	
 	
@@ -58,11 +58,10 @@ button {
 	padding-bottom: 1.3em;	
 	}
 #existing-users{
-	font-size: 1.6em;
+	font-size: 1em;
     padding-top: 3em;
 	padding-left: 5%;
 	padding-right: 5%;
-	float: center;
 	}
 #welcome{
 	font-size: 1.6em;
@@ -72,7 +71,6 @@ button {
 	padding-top: 3em;
 	padding-left: 5%;
 	padding-right: 5%;
-	float: center;
 	}
 
 @media screen and (min-width 32em) {
