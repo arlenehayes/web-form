@@ -3,8 +3,7 @@
 body{
     font-size: 62.5%; /* Font size is 10px */
 	line-height: 1.8em;
-	width: 90%;
-	
+		
 	 /*Stops text size adjustment with change in smartphone orientation. Mobile First :D*/
     -webkit-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
@@ -18,7 +17,7 @@ body{
 	box-shadow: 1em 1em 0.6em black;
 	}
 #logo{
-    font-family: cursive;
+    font-family: billabong, lobster, arimo, cursive;
 	font-size: 2.8em;
 	color: rgb(205,218,228);
 	margin-top: 0em;
@@ -26,10 +25,19 @@ body{
 	padding-bottom: 1.3em;	
 	}
 #existing-users{
+	font-size: 1.6em;
     padding-top: 3em;
 	padding-left: 5%;
-	font-size: 2.1em;
 	float: left;
+	}
+#welcome{
+	font-size: 2.1em;
+	}
+#new-users{
+	font-size: 1.6em;
+	padding-top: 3em;
+	padding-right: 5%;
+	float: right;
 	}
 	
 	
