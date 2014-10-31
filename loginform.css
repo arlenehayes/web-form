@@ -3,6 +3,7 @@
 body{
     font-size: 62.5%; /* Font size is 10px */
 	line-height: 2.1em;
+	width: 100%;
 		
 	 /*Stops text size adjustment with change in smartphone orientation. Mobile First :D*/
     -webkit-text-size-adjust: 100%;
