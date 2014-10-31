@@ -8,6 +8,7 @@ body{
     -moz-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     text-size-adjust: 100%; 
+	}
 #name{
     background-color: rgb(75,121,158);
 	color: rgb(205,218,228);
