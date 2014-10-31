@@ -1,15 +1,25 @@
 /*CSS for project3*/
 
+body{
+    font-size: 62.5%; /* Font size is 10px */
+	
+	 /*Stops text size adjustment with change in smartphone orientation. Mobile First :D*/
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%; 
 #name{
     background-color: rgb(75,121,158);
 	color: rgb(205,218,228);
 	text-align: center;
-	
+	box-shadow: 10px 20px 30px black;
 	}
 #logo{
     font-family: billabong, cursive;
+	font-size: 1.6em;
 	color: rgb(205,218,228);
 	margin-top: 0em;
-	padding-top: 2em;
+	padding-top: 1.6em;
+	padding-bottom: 1.6em;	
 	}
 	
