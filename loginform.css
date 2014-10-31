@@ -58,7 +58,7 @@ button {
 	padding-bottom: 1.3em;	
 	}
 #existing-users{
-	font-size: 1em;
+	font-size: 1.6em;
     padding-top: 3em;
 	padding-left: 5%;
 	padding-right: 5%;
@@ -66,6 +66,11 @@ button {
 #welcome{
 	font-size: 1.6em;
 	}
+	
+#form-intro{
+	padding-top: 1.8em;
+	}
+	
 #new-users{
 	font-size: 1.6em;
 	padding-top: 3em;
