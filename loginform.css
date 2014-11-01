@@ -1,12 +1,21 @@
 /*CSS for project3*/
 
-body{
-    font-size: 62.5%; /* Font size is 10px */
+h1{
+    padding-top: 1.3em;
+	padding-bottom: 1.3em;
+	text-align: center;
+	background-color: rgb(75,121,158);
+	color: rgb(205,218,228);
+	font-size: 2.8em;
+	box-shadow: 1em 1em 0.6em black;
+}
+
+/*body{
+    font-size: 62.5%; 
 	line-height: 2.1em;
 	width: 100%;
 		
-	 /*Stops text size adjustment with change in smartphone orientation. Mobile First :D*/
-    -webkit-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     text-size-adjust: 100%; 
@@ -14,7 +23,8 @@ body{
 	
 #page-content{
 	margin: 0 auto;
-	width: 60%;
+	width: 70%;
+	te
 	}
 
 form{
@@ -34,6 +44,7 @@ label {
 input, textarea {
 	font: 1em sans-serif;
 	width: 60%;
+	vertical-align: top;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	border: 0.1em solid rgb(204,204,204);
@@ -42,17 +53,20 @@ input, textarea {
 
 button {
 	/*padding-left: 9em;*/
-	margin-left: 12em;
+/*	margin-left: 12em;
 	border-radius: .8em;
 	font-weight: bold;
 	}
 	
-	
 #name{
     background-color: rgb(75,121,158);
 	color: rgb(205,218,228);
+	font-size: 2.8em;
 	text-align: center;
-	box-shadow: 1em 1em 0.6em black;
+	box-shadow: 1em 1em 0.4em black;
+	}
+	
+#name{
 	font-family: billabong, lobster, arimo, cursive;
 	font-size: 2.8em;
 	color: rgb(205,218,228);
@@ -89,23 +103,28 @@ button {
 	padding-right: 5%;
 	}
 
-@media screen and (min-width 32em) {
+@media screen and (min-width: 24em)
+	#page-content{
+		width: 
+
+@media screen and (min-width: 32em) {
 	#page-content{
 	    width: 75%;
 		}
 	}
 	
-@media screen and (min-width 48em) {
+@media screen and (min-width: 64em) {
 	#page-content{
 		width: 70%;
 		}
 	}
 
-@media screen and (min-width 64em) {
+@media all and (min-width: 98em) {
 	#page-content{
 		width: 65%;
 		}
 	}
 	
+	*/
 	
 	
