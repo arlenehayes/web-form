@@ -2,6 +2,7 @@
 
 body{
 	font-size: 62.5%;
+	background-color: rgba(45,146,208,.3);
 }
 
 h1{
@@ -46,6 +47,7 @@ form div + div{
 	}
 	
 label {
+	font-size: 1.4em;
 	display: inline-block;
 	width: 9em;
 	text-align: right;
@@ -54,15 +56,24 @@ label {
 input, textarea {
 	font: 1em sans-serif;
 	width: 60%;
+	display: inline-block;
 	vertical-align: top;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	border: 0.1em solid rgb(204,204,204);
 	border-radius: 1em;
 	}
-	/*
-@media screen and (max-width: 50em){
 	
+button {
+	border-radius: .8em;
+	font-weight: bold;
+	}
+	
+@media and (max-width: 60em){
+	#page-content{
+		width: 30%;
+		}
+		}
 		
 		
 	
