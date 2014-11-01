@@ -70,9 +70,27 @@ button {
 	font-weight: bold;
 	}
 	
-@media and (max-width: 60em){
+@media and (max-width: 62em){
 	#page-content{
-		width: 30%;
+		width: 60%;
+		}
+		}
+		
+@media screen and (max-width: 48em){
+	#page-content{	
+		width: 80%;
+		}
+		}
+		
+@media screen and (max-width: 30em){
+	#page-content{
+		width: 95%;
+		}
+		}
+		
+@media screen and (max-width: 18em){
+	#page-content{
+		width: 95%;
 		}
 		}
 		
